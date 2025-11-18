@@ -50,7 +50,7 @@ It includes:
 
 # Installation
 
-    composer require akaradistira/rajaongkir-shipping
+    composer require akara/bagisto-rajaongkir
 
 
 ## Usage
