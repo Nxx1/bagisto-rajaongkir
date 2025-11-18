@@ -52,11 +52,6 @@ It includes:
 
     composer require akaradistira/rajaongkir-shipping
 
-# Configuration
-
-Publish config:
-
-    php artisan vendor:publish --tag=rajaongkir-shipping-config
 
 ## Usage
 
