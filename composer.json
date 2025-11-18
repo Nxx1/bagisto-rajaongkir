@@ -1,0 +1,35 @@
+{
+    "name": "akara/bagisto-rajaongkir",
+    "description": "High-reliability RajaOngkir shipping integration for Bagisto.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "N.Pratama",
+            "email": "nprataama028@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^10|^11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Akara\\RajaOngkir\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akara\\RajaOngkir\\Providers\\RajaOngkirServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
